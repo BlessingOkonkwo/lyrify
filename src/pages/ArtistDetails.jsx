@@ -1,5 +1,12 @@
-const ArtistDetails = () => (
-  <div>ArtistDetails</div>
-);
+import React from 'react'
 
-export default ArtistDetails;
+const ArtistDetails = () => {
+  return (
+    <div>
+      Artist Details
+    </div>
+  )
+}
+
+export default ArtistDetails
+
