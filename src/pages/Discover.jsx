@@ -16,10 +16,10 @@ const Discover = () => {
   console.log(data);
 
   if (isFetching) {
-    return <Loader title="Loading songs..." />;
+    return <Loader title="Loading songs..." />
   }
   if (error) {
-    return <Error />;
+    return <Error />
   }
 
   return (
